@@ -6,4 +6,4 @@
 }}
 
 select *
-from s3glue.yash_dbt_lakehouse_land.customer_land
+from s3glue.yash_dbt_lakehouse_external.customer_land

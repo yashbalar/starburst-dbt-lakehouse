@@ -1,8 +1,9 @@
 {{ 
-    config(materialized="view",
+    config(
+        materialized="view",
         schema="land"
     ) 
 }}
 
 select *
-from s3glue.yash_dbt_lakehouse_land.sales_land
+from s3glue.yash_dbt_lakehouse_external.sales_land
