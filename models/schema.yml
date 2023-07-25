@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: sales_base
+    columns:
+      - name: orderid
+        tests:
+          - not_null
+      - name: custkey
+        tests:
+          - not_null
