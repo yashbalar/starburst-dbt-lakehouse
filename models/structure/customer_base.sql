@@ -1,7 +1,8 @@
 {{ 
     config(
         materialized="table",
-        incremental_strategy = "merge"
+        incremental_strategy = "merge",
+        schema="structure"
     ) 
 }}
 

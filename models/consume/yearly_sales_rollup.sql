@@ -1,7 +1,7 @@
 {{ 
     config(
         materialized="view",
-        schema = "yash_dbt_lakehouse_consume"
+        schema="consume"
     ) 
 }}
 
